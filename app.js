@@ -2,7 +2,7 @@ import express from "express";
 const app = express();
 
 // Define a route that accepts two query parameters: time and github
-app.get("/", (req, res) => {
+app.get("/api", (req, res) => {
   const { slack_name, track } = req.query;
 
   if (!slack_name || !track) {
