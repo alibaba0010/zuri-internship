@@ -30,7 +30,7 @@ app.get("/api", (req, res) => {
     current_day: currentDayOfWeek,
     utc_time: currentUTC,
     track,
-    github_filr_url: "https://github.com/alibaba0010/zuri-internship/blob/main/app.js",
+    github_file_url: "https://github.com/alibaba0010/zuri-internship/blob/main/app.js",
     github_repo_url: "https://github.com/alibaba0010/",
     statusCode: 200,
   });
