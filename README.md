@@ -18,7 +18,7 @@ npm run dev
 
 # Usage
 
-## Create a user
+# Create a user
 
 ## Route
 
@@ -40,7 +40,7 @@ npm run dev
 }
 ```
 
-## Get a user
+# Get a user
 
 ## Route
 
@@ -48,7 +48,14 @@ npm run dev
 
 ### https://zuri-interns.onrender.com/api/{{user_id}}
 
-## Update a user
+```bash
+## Response
+{
+    "user": "Paul"
+}
+```
+
+# Update a user
 
 ## Route
 
@@ -77,15 +84,10 @@ npm run dev
 ```bash
 ## Response
 {
-    "user": "Paul"
+    "message": "User deleted"
 }
 ```
-
-```
-
-
 
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
-```
