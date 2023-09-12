@@ -24,6 +24,8 @@ npm run dev
 
 ### http://localhost:3001/api
 
+### https://zuri-interns.onrender.com/api/{{user_id}}
+
 ```bash
 {
     "name" : "Edwin",
@@ -44,11 +46,15 @@ npm run dev
 
 ### http://localhost:3001/api/{{user_id}}
 
+### https://zuri-interns.onrender.com/api/{{user_id}}
+
 ## Update a user
 
 ## Route
 
 ### http://localhost:3001/api/{{user_id}}
+
+### https://zuri-interns.onrender.com/api/{{user_id}}
 
 ```bash
 {
@@ -65,6 +71,8 @@ npm run dev
 ## Route
 
 ### http://localhost:3001/api/{{user_id}}
+
+### https://zuri-interns.onrender.com/api/{{user_id}}
 
 ```bash
 ## Response
