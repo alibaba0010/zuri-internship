@@ -2,11 +2,11 @@ import pkg, { Types } from "mongoose";
 const { Schema, model } = pkg;
 
 const UserSchema = new Schema({
-  username: {
+  name: {
     type: String,
     required: [true, "Please provide name"],
   },
-  passwors: {
+  password: {
     type: String,
     required: [true, "Please provide password"],
     minlength: [6, "Password must be up to 6 characters"],
