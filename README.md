@@ -16,6 +16,12 @@ Run npm install at the root directory
 npm run dev
 ```
 
+### Run the nodejs test using Jest
+
+```bash
+ NODE_OPTIONS=--experimental-vm-modules npm run test
+```
+
 # Usage
 
 # Create a user
