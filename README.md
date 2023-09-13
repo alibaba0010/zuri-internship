@@ -24,7 +24,7 @@ npm run dev
 
 ### http://localhost:3001/api
 
-### https://zuri-interns.onrender.com/api/{{user_id}}
+### https://zuri-interns.onrender.com/api
 
 ```bash
 {
